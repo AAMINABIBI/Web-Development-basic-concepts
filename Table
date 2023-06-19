@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<table border="1">
+    <h1>table 1</h1>
+    <thead>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Gender</th>
+        <th>Phoen no</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>123</td>
+            <td>ali</td>
+            <td>male</td>
+            <td>1u26382</td>
+        </tr>
+        <tr>
+            <td>123</td>
+            <td>ali</td>
+            <td>male</td>
+            <td>1u26382</td>
+        </tr>
+        <tr><td>123</td>
+            <td>ali</td>
+            <td>male</td>
+            <td>1u26382</td></tr>
+        <tr><td>123</td>
+            <td>ali</td>
+            <td>male</td>
+            <td>1u26382</td></tr>
+    </tbody>
+
+ 
+
+    <table border="1">
+        <h1>table 2</h1>
+
+        <thead>
+            <th>No.</th>
+            <th>Name</th>
+            <th>Position</th>
+            <th>Salary</th>
+            <th>Designation</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>billgates</td>
+                <td>founder microsoft</td>
+                <td>10000</td>
+                <td rowspan="5">company founder</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>abg</td>
+                <td>head</td>
+                <td>34432</td>
+            </tr>
+            <tr>
+                <td rowspan="2" colspan="2" >2</td>
+                <td >abg</td>
+                
+            </tr><tr>
+                <td>2</td>
+                <td>abg</td>
+               
+            </tr><tr>
+                <td>2</td>
+                <td>abg</td>
+                <td>head</td>
+                <td>34432</td>
+            </tr>
+        </tbody>
+    </table>
+</table>
+
+</body>
+</html>
