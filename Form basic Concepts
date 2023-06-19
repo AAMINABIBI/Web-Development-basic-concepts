@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset >
+            <legend>HTML form dummy </legend>
+<label for="email">Enter email</label>
+        <input type="email" id="email" placeholder="enter email">
+        <br>
+        <br>
+        <label for="pswrd">Enter password</label>
+        <input type="password" id="email">
+
+       
+<br>
+<br>
+
+        <input type="submit" value="click here">
+    <br><br>
+        <select>
+    <option value="maggi">maggi</options>
+    <option value="kurkure">kurkure</option>
+    <option value="lays">lays</option>
+</select>
+<br>
+<br>
+<button type=btn>main hoon button</button>
+   
+<br><br>
+<textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="enter text"></textarea>
+</form>
+
+</fieldset>
+<label for="radio">Are you:</label> 
+
+<br>
+<input type="radio" value="male" id="radio">
+<label for="radio">male</label>
+<br>
+<input type="radio" value="female" id="radio">female
+<br>
+<input type="radio" value="others" id="radio">Others
+
+<br>
+<input type="checkbox" value="others" id="radio">Others
+<br><br><br>
+<label for="file">upload</label>
+<input type="file" name="file" id="file">
+<br>
+<input type="image" name="imafe1" is="image1" alt="click" src="signature.png">
+</body>
+</html>
