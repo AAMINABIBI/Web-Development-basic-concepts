@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+<label for="name">NAme</label>
+    
+<input type="text" name="name" id="name">
+<br>
+   <br>
+<label for="email id">Enetr Email</label>
+    
+<input type="email" name="email id" id="email id">
+
+<br>
+<br><label for="telno">Phone no.</label>
+
+    
+<input type="text" name="telno" id="telno">
+<br><br>
+<label for="occupation type">Select Your occupation</label>
+
+<br><select name="Occupation Type" id="occupation type">
+
+    <option value="student">Student</option>
+    <option value="Professional">professional</option>
+
+    <option value="other">other</option>
+
+</select>
+<br>
+<br>
+<fieldset>
+    <legend>Topic Of Interest</legend>
+    <label for="checkbox1">HTML</label>
+<input type="checkbox" name="checkbox" id="checkbox1">
+
+<label for="checkbox2">Css</label>
+<input type="checkbox" name="checkbox" id="checkbox2">
+<label for="checkbox3">JS</label>
+<input type="checkbox" name="checkbox" id="checkbox3">
+
+</fieldset>
+<br>
+<label for="textarea 1">comments</label>
+<br>
+<textarea name="textarea" id="textarea 1" cols="30" rows="10"></textarea>
+<br>
+<input type="submit" value="register">
+</form>
+</body>
+</html>
